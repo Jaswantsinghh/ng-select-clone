@@ -5,6 +5,9 @@ import '../../../index.scss';
 const str = '</>';
 export default function CodeButton() {
   return (
-    <button className="codeButton" type="button">{str}</button>
+    <a href="https://github.com/Jaswantsinghh/ng-select-clone/tree/main">
+      <button className="codeButton" type="button">{str}</button>
+    </a>
+
   );
 }
