@@ -118,10 +118,11 @@ border: rgba(0,0,0,.03);
 {
   .container{
     max-width: 340px;
-    
+    height: auto;
   } 
   .header-container{
     max-width: 300px;
+    padding-bottom: 30px;
   }
   .bodyContainer{
     max-width: 300px;
