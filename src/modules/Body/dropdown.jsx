@@ -4,8 +4,10 @@ import Select from 'react-select';
 
 const options = [
   { value: '5a15b13c36e7a7f00cf07cd', label: 'Karyn Wright' },
+  { label: 'Rochelle Russell', isdisabled: 'true' },
   { value: '5a15b13c663ea0af9ad0dae8', label: 'Mendoza Ruiz' },
   { value: '5a15b13cc9eeb36511d65acf', label: 'Rosales Russell' },
+  { label: 'Marquez Nolan', isdisabled: 'true' },
   { value: '5a15b13ca51b0aaf8a99c05a', label: 'Franklin James' },
   { value: '5a15b13cc3b9381ffcb1d6f7', label: 'Elsa Bradley' },
   { value: '5a15b13ce58cb6ff62c65164', label: 'Pearson Thompson' },
@@ -29,6 +31,7 @@ export default function DropDown() {
         defaultValue={selectedOption}
         onChange={setSelectedOption}
         options={options}
+        isOptionDisabled={(option) => option.isdisabled}
         isClearable
       />
       <p className="caption">
