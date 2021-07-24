@@ -40,16 +40,16 @@ body{
   @include flex-setting($flow: column);
 }
 .image{
- height: 15px;
- width: 18px;
+ height: 0.938rem;
+ width: 1.125rem;
 }
 .buttonContainer{
-  height: 23px;
+  height: 1.438rem;
   
   color: rgb(33,37,41);
 }
 .codeButton{
-height: 23px;
+height: 1.438rem;
 border: rgba(0,0,0,.03);
   cursor: pointer;
 }
@@ -103,7 +103,7 @@ border: rgba(0,0,0,.03);
 
 .bodyContainer{
   width: $width-div - 2.5rem;
-  height: 188px;
+  height: 11.75rem;
   background: white;
   padding: 20px;
   
@@ -111,5 +111,20 @@ border: rgba(0,0,0,.03);
 .App{
   @include flex-setting($flow: column);
   align-items: center;
+  
+}
+
+@media (max-width:800px) 
+{
+  .container{
+    max-width: 340px;
+    
+  } 
+  .header-container{
+    max-width: 300px;
+  }
+  .bodyContainer{
+    max-width: 300px;
+  }
   
 }
