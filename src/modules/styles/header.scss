@@ -1,0 +1,48 @@
+.headerContainer{
+    width: $width-div - 2.5rem;
+    height: $header-height;
+    @include flex-setting;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: $font-used;
+    overflow-wrap: break-word;
+    line-height: 24px;
+    color: rgba(0,0,0,.54);
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background: rgba(0,0,0,.03);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+.headerContainer:first-child {
+    border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
+}
+  
+.buttonContainer{
+    height: 1.438rem;
+    color: rgb(33,37,41);
+}
+.image{
+    height: 0.938rem;
+    width: 1.125rem;
+}
+   
+.codeButton{
+   height: 1.438rem;
+   border: rgba(0,0,0,.03);
+   cursor: pointer;
+}
+   
+.stack:active, .codeButton:active{
+    @extend %click-setting;
+}
+   
+.stack:hover, .codeButton:hover{
+       @extend %hover-setting;
+}
+
+.stack{
+    border: rgba(0,0,0,.03);
+    cursor: pointer;
+}
