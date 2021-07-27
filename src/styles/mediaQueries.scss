@@ -4,12 +4,12 @@
     max-width: 310px;
     height: auto;
   } 
-  .headerContainer{
-    max-width: 270px;
-    padding-bottom: 30px;
-  }
+  
   .bodyContainer{
     max-width: 270px;
+    .headerContainer{
+      padding-bottom: 30px;
+    }
   }
   
 }
