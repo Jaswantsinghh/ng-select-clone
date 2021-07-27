@@ -1,5 +1,5 @@
 import './index.scss';
-import './modules/header-container';
+import './modules/headerContainer';
 import React from 'react';
 import Container from './modules/container';
 

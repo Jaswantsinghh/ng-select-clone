@@ -39,7 +39,7 @@ function ContentBody() {
 function DropDown() {
   const [selectedOption, setSelectedOption] = useState(options[0]);
   return (
-    <div className="drop-down">
+    <div className="dropDown">
       <Select
         placeholder="Select item"
         className="select-drop"

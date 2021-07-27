@@ -1,12 +1,12 @@
 .headerContainer{
-    width: $width-div - 2.5rem;
-    height: $header-height;
-    @include flex-setting;
+    width: $widthDiv - 2.5rem;
+    height: $headerHeight;
+    @include flexSetting;
     border-bottom-style: solid;
     border-bottom-width: 1px;
     font-size: 16px;
     font-weight: 500;
-    font-family: $font-used;
+    font-family: $fontUsed;
     overflow-wrap: break-word;
     line-height: 24px;
     color: rgba(0,0,0,.54);
@@ -35,11 +35,11 @@
 }
    
 .stack:active, .codeButton:active{
-    @extend %click-setting;
+    @extend %clickSetting;
 }
    
 .stack:hover, .codeButton:hover{
-       @extend %hover-setting;
+       @extend %hoverSetting;
 }
 
 .stack{

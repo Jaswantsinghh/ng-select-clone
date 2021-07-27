@@ -1,15 +1,15 @@
 body{
     padding-top: 5rem;
     background-color: whitesmoke;
-    font-family: $font-used;
+    font-family: $fontUsed;
     overflow-wrap: break-word;
 }
 .contentText{
     margin: 0 0 16px 0;
     font-size: 14px;
 }
-.drop-down{
-    @include flex-setting($flow: column);
+.dropDown{
+    @include flexSetting($flow: column);
 }
 .caption{
     margin-top: 15px;
@@ -17,7 +17,7 @@ body{
     margin-bottom: 0;
 }
 .bodyContainer{
-    width: $width-div - 2.5rem;
+    width: $widthDiv - 2.5rem;
     height: 11.75rem;
     background: white;
     padding: 20px;

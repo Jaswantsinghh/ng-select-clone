@@ -1,7 +1,7 @@
 /* eslint-disable linebreak-style */
 import React from 'react';
-import Body from './body-container';
-import HeaderContainer from './header-container';
+import Body from './bodyContainer';
+import HeaderContainer from './headerContainer';
 import '../index.scss';
 
 function Container() {

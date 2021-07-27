@@ -3,7 +3,7 @@
 @import './modules/styles/body.scss'; 
 
 .App{
-  @include flex-setting($flow: column);
+  @include flexSetting($flow: column);
   align-items: center;  
 }
 
