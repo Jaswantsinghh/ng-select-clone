@@ -1,6 +1,6 @@
-@import './modules/styles/container.scss';
-@import './modules/styles/header.scss';
-@import './modules/styles/body.scss'; 
+@import './modules/styles/container.scss', 
+        './modules/styles/header.scss', 
+        './modules/styles/body.scss';
 
 .App{
   @include flexSetting($flow: column);

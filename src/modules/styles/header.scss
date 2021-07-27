@@ -30,22 +30,16 @@
     width: 1.125rem;
 }
       
-.codeButton{
+.codeButton, .stack{
     height: 1.438rem;
-    .stack{
-       border: none;
-       cursor: pointer;
-    }
+    border: none;
+    cursor: pointer;
 }
 
-.codeButton:hover{
-    .stack:hover{
-        @extend %hoverSetting;
-    }
+.codeButton:hover, .stack:hover{
+    @extend %hoverSetting;
 }
 
-.codeButton:active{
-    .codeButton:active{
-        @extend %clickSetting;
-    }
+.codeButton:active, .stack:active{
+    @extend %clickSetting;
 }
