@@ -1,6 +1,7 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).  
+[![DeepScan grade](https://deepscan.io/api/teams/14917/projects/18039/branches/431128/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=14917&pid=18039&bid=431128)
 
 ## Available Scripts
 
