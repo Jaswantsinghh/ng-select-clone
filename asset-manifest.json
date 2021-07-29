@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/ng-select-clone/static/css/main.ab042c1c.chunk.css",
-    "main.js": "/ng-select-clone/static/js/main.2a76347e.chunk.js",
-    "main.js.map": "/ng-select-clone/static/js/main.2a76347e.chunk.js.map",
+    "main.css": "/ng-select-clone/static/css/main.0c74f112.chunk.css",
+    "main.js": "/ng-select-clone/static/js/main.f278825e.chunk.js",
+    "main.js.map": "/ng-select-clone/static/js/main.f278825e.chunk.js.map",
     "runtime-main.js": "/ng-select-clone/static/js/runtime-main.7815983e.js",
     "runtime-main.js.map": "/ng-select-clone/static/js/runtime-main.7815983e.js.map",
-    "static/js/2.79aff55d.chunk.js": "/ng-select-clone/static/js/2.79aff55d.chunk.js",
-    "static/js/2.79aff55d.chunk.js.map": "/ng-select-clone/static/js/2.79aff55d.chunk.js.map",
+    "static/js/2.4cb802fa.chunk.js": "/ng-select-clone/static/js/2.4cb802fa.chunk.js",
+    "static/js/2.4cb802fa.chunk.js.map": "/ng-select-clone/static/js/2.4cb802fa.chunk.js.map",
     "index.html": "/ng-select-clone/index.html",
-    "static/css/main.ab042c1c.chunk.css.map": "/ng-select-clone/static/css/main.ab042c1c.chunk.css.map",
-    "static/js/2.79aff55d.chunk.js.LICENSE.txt": "/ng-select-clone/static/js/2.79aff55d.chunk.js.LICENSE.txt"
+    "static/css/main.0c74f112.chunk.css.map": "/ng-select-clone/static/css/main.0c74f112.chunk.css.map",
+    "static/js/2.4cb802fa.chunk.js.LICENSE.txt": "/ng-select-clone/static/js/2.4cb802fa.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.7815983e.js",
-    "static/js/2.79aff55d.chunk.js",
-    "static/css/main.ab042c1c.chunk.css",
-    "static/js/main.2a76347e.chunk.js"
+    "static/js/2.4cb802fa.chunk.js",
+    "static/css/main.0c74f112.chunk.css",
+    "static/js/main.f278825e.chunk.js"
   ]
 }
