@@ -37,6 +37,7 @@ export default function Dropdown() {
         <div className="ddInputWrapper">
           <div className="ddHeaderTitle">
             <input
+              placeholder="Select item"
               className="ddHeaderTitleBold"
               value={selection.label}
               onFocus={() => setOpen(true)}
