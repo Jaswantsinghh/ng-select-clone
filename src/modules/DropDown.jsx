@@ -45,7 +45,7 @@ export default function Dropdown() {
             />
           </div>
           <button className="ddClear" type="button" onClick={() => { setSelection({ label: '' }); }}>
-            ×
+            {selection.label !== '' ? '×' : ''}
           </button>
           <span className="ddSpan"> | </span>
           <div
