@@ -1,6 +1,7 @@
 @import './modules/styles/container.scss', 
         './modules/styles/header.scss', 
-        './modules/styles/body.scss';
+        './modules/styles/body.scss',
+        './modules/styles/dropdown.scss';
 
 .App{
   @include flexSetting($flow: column);
