@@ -51,8 +51,8 @@ export default function Dropdown() {
             tabIndex={0}
             className="ddHeader"
             role="button"
-            onKeyPress={() => toggle(!open)}
-            onClick={() => toggle(!open)}
+            onKeyPress={() => toggle()}
+            onClick={() => toggle()}
           >
             <div className="ddHeaderAction">
               <span className="ddClose">{open ? '▲' : '▼'}</span>
