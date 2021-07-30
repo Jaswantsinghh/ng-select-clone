@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 import {
   React, useState, useRef,
 } from 'react';
@@ -25,7 +26,11 @@ const options = [
 
 export default function Dropdown() {
   const [open, setOpen] = useState(false);
-  const [selection, setSelection] = useState(options[0]);
+  const [selection, setSelection] = useState({ label: '' });
+  const [placeHolder, setPlaceHolder] = useState(options[0]);
+  const [classInput, setClassInput] = useState('ddHeaderTitleBold');
+  const classButton = 'ddButton';
+  const classButtonSelected = 'ddButtonSelected';
   const toggle = () => setOpen(!open);
   const ref = useRef();
   useOutsideClick(ref, () => {
@@ -37,17 +42,23 @@ export default function Dropdown() {
         <div className="ddInputWrapper">
           <div className="ddHeaderTitle">
             <input
-              placeholder="Select item"
-              className="ddHeaderTitleBold"
-              value={selection.label}
+              placeholder={placeHolder.label}
+              className={classInput}
               onFocus={() => setOpen(true)}
               onChange={(e) => setSelection({ label: e.target.value })}
             />
           </div>
-          <button className="ddClear" type="button" onClick={() => { setSelection({ label: '' }); }}>
-            {selection.label !== '' ? '×' : ''}
+          <button
+            className="ddClear"
+            type="button"
+            onClick={() => {
+              setSelection({ label: '' });
+              setPlaceHolder({ label: 'Select item' });
+              setClassInput('ddHeaderTitleGray');
+            }}
+          >
+            {placeHolder.label !== 'Select item' ? '×' : ''}
           </button>
-          <span className="ddSpan"> | </span>
           <div
             tabIndex={0}
             className="ddHeader"
@@ -63,7 +74,7 @@ export default function Dropdown() {
         <div>
           <p>
             Selected:
-            {selection.id}
+            {placeHolder.id}
           </p>
         </div>
         {open && (
@@ -73,11 +84,14 @@ export default function Dropdown() {
               .map((item) => (
                 <li className="ddListItem" key={item.id}>
                   <button
-                    className="ddButton"
+                    className={item.label === placeHolder.label
+                      ? classButtonSelected : classButton}
                     type="button"
                     onClick={() => {
                       const selectedValue = item;
-                      setSelection(selectedValue);
+                      setPlaceHolder(selectedValue);
+                      setOpen(false);
+                      setClassInput('ddHeaderTitleBold');
                     }}
                     disabled={!!item.isdisabled}
                   >
