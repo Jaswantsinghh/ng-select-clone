@@ -72,9 +72,9 @@ export default function Dropdown() {
           </div>
         </div>
         <div>
-          <p>
+          <p className="caption">
             Selected:
-            {placeHolder.id}
+            {` ${placeHolder.id}`}
           </p>
         </div>
         {open && (

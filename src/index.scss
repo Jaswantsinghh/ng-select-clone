@@ -6,5 +6,6 @@
 .App{
   @include flexSetting($flow: column);
   align-items: center;  
+  height:243.8px;
 }
 
