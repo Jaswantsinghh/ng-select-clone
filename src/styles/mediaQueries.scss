@@ -1,15 +1,42 @@
 @media (max-width:500px) 
 {
+  body, html{
+    box-sizing: border-box;
+    margin: 0;
+min-height: 100vh;
+  }
+  #root{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    margin: 0;
+    min-height: 100vh;
+  }
+  .App{
+    min-height: 100vh;
+  }
   .container{
-    max-width: 310px;
-    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    max-width: 345.2px;
+    min-height: 346.6px;
   } 
   
   .bodyContainer{
-    max-width: 270px;
-    .headerContainer{
-      padding-bottom: 30px;
-    }
+    box-sizing: border-box;
+    max-width: 345.2px;
+    padding: 12px 20px 12px 20px;
+    min-height: 260px;
+    margin-top: 0;
+  }
+  .headerContainer{
+    max-width: 305.2px;
+    min-height: 62.6px;
+    padding: 12px 20px 12px 20px;
+    border: black;
+  }
+  .App{
+    max-width: 345.2px;
   }
   
 }

@@ -53,7 +53,7 @@ export default function Dropdown() {
             type="button"
             onClick={() => {
               setSelection({ label: '' });
-              setPlaceHolder({ label: 'Select item' });
+              setPlaceHolder({ label: 'Select item', id: ' ' });
               setClassInput('ddHeaderTitleGray');
             }}
           >
