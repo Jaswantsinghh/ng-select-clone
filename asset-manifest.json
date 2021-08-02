@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/ng-select-clone/static/css/main.5f0c34e8.chunk.css",
-    "main.js": "/ng-select-clone/static/js/main.f32cb32d.chunk.js",
-    "main.js.map": "/ng-select-clone/static/js/main.f32cb32d.chunk.js.map",
+    "main.css": "/ng-select-clone/static/css/main.39853cc6.chunk.css",
+    "main.js": "/ng-select-clone/static/js/main.236d7414.chunk.js",
+    "main.js.map": "/ng-select-clone/static/js/main.236d7414.chunk.js.map",
     "runtime-main.js": "/ng-select-clone/static/js/runtime-main.7815983e.js",
     "runtime-main.js.map": "/ng-select-clone/static/js/runtime-main.7815983e.js.map",
     "static/js/2.db2972d7.chunk.js": "/ng-select-clone/static/js/2.db2972d7.chunk.js",
     "static/js/2.db2972d7.chunk.js.map": "/ng-select-clone/static/js/2.db2972d7.chunk.js.map",
     "index.html": "/ng-select-clone/index.html",
-    "static/css/main.5f0c34e8.chunk.css.map": "/ng-select-clone/static/css/main.5f0c34e8.chunk.css.map",
+    "static/css/main.39853cc6.chunk.css.map": "/ng-select-clone/static/css/main.39853cc6.chunk.css.map",
     "static/js/2.db2972d7.chunk.js.LICENSE.txt": "/ng-select-clone/static/js/2.db2972d7.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.7815983e.js",
     "static/js/2.db2972d7.chunk.js",
-    "static/css/main.5f0c34e8.chunk.css",
-    "static/js/main.f32cb32d.chunk.js"
+    "static/css/main.39853cc6.chunk.css",
+    "static/js/main.236d7414.chunk.js"
   ]
 }
